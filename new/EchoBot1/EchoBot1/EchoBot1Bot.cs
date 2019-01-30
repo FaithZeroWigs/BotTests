@@ -78,6 +78,9 @@ namespace EchoBot1
                 // Echo back to the user whatever they typed.
                 var responseMessage = $"Turn {state.TurnCount}: You sent '{turnContext.Activity.Text}'\n";
                 await turnContext.SendActivityAsync(responseMessage);
+                responseMessage = $"Follow up on Turn {state.TurnCount}, do you see this one?'\n";
+                await Task.Delay(5000);
+                await turnContext.SendActivityAsync(responseMessage);
             }
             else
             {

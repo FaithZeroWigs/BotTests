@@ -1,0 +1,16 @@
+{
+    "name": "Demo1",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "endpoint": "http://localhost:11597/api/messages",
+            "name": "Demo1",
+            "id": "165"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "F:\\git\\BotTests\\YT\\demo1\\Demo1.bot",
+    "overrides": null
+}
