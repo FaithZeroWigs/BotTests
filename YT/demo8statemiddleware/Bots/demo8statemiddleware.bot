@@ -1,0 +1,24 @@
+{
+    "name": "demo state",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "https://localhost:44369/api/messages",
+            "id": "5b675450-24c0-11e9-93c7-a5c18f875aaa",
+            "name": "https://localhost:44369/api/messages"
+        },
+        {
+            "type": "endpoint",
+            "endpoint": "http://localhost:3844/api/messages",
+            "name": "demo8",
+            "id": "56"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "F:\\git\\BotTests\\YT\\demo8statemiddleware\\Bots\\demo8statemiddleware.bot",
+    "overrides": null
+}

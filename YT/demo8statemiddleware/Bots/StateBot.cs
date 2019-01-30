@@ -19,7 +19,11 @@ namespace demo8statemiddleware.Bots
             if (turnContext.Activity.Type == ActivityTypes.Message)
             {
                 var state = await BotAccessors.DemoStateAccessor.GetAsync(turnContext, () => new DemoState(), cancellationToken: cancellationToken);
-                await turnContext.SendActivityAsync($"You said {turnContext.Activity.Text}, and you have made {++state.Counter} requests.");
+                ++state.Counter;
+                await BotAccessors.DemoStateAccessor.SetAsync(turnContext, state, cancellationToken);
+                await BotAccessors.ConversationState.SaveChangesAsync(turnContext);
+
+                await turnContext.SendActivityAsync($"You said {turnContext.Activity.Text}, and you have made {state.Counter} requests.");
             }
         }
     }
