@@ -5,12 +5,18 @@
         {
             "type": "endpoint",
             "endpoint": "http://localhost:11597/api/messages",
-            "name": "Demo1",
-            "id": "165"
+            "id": "165",
+            "name": "Demo1"
+        },
+        {
+            "type": "endpoint",
+            "endpoint": "http://localhost:51414/api/messages",
+            "name": "DemoStateMiddleware",
+            "id": "159"
         }
     ],
     "padlock": "",
     "version": "2.0",
-    "path": "F:\\git\\BotTests\\YT\\demo1\\Demo1.bot",
+    "path": "D:\\projects\\BotTests\\YT\\demo1\\Demo1.bot",
     "overrides": null
 }
