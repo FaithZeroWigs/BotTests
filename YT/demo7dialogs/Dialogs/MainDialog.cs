@@ -37,7 +37,10 @@ namespace demo7dialogs.Dialogs
                 return await stepContext.NextAsync();
             });
 
-            AddStep(async (stepContext, cancellationToken) => { return await stepContext.ReplaceDialogAsync(Id); });
+            AddStep(async (stepContext, cancellationToken) => 
+            {
+                return await stepContext.ReplaceDialogAsync(Id);
+            });
         }
 
 

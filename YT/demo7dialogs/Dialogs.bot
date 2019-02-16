@@ -1,0 +1,18 @@
+{
+    "name": "Dialogs",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:55727/api/messages",
+            "id": "4be4a8e0-2842-11e9-a048-05cd14b2d103",
+            "name": "Dialogs"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "D:\\projects\\BotTests\\YT\\demo7dialogs\\Dialogs.bot",
+    "overrides": null
+}
